@@ -34,8 +34,8 @@ Upload or record an audio sample (like someone talking), and the model predicts 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/audio-emotion-detector.git
-cd audio-emotion-detector
+git clone https://github.com/mdarfatwork/audio-emotion-detector-python.git
+cd audio-emotion-detector-python
 ```
 
 ### 2️⃣ Create and activate a virtual environment (recommended)
