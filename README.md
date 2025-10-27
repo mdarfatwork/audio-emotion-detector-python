@@ -8,12 +8,11 @@ Upload or record an audio sample (like someone talking), and the model predicts 
 
 ## 🚀 Features
 
-- 🎵 Upload or record any short audio (speech)
+- 🎵 Upload any short audio (speech)
 - 🧠 Uses a **pretrained Hugging Face model**: `superb/hubert-large-superb-er`
 - 💡 Detects emotions: `Happy`, `Sad`, `Angry`, `Neutral`
-- 🧩 Built with: `Python`, `librosa`, `transformers`, `torch`, `gradio`
+- 🧩 Built with: `Python`, `librosa`, `transformers`, `torch`
 - ⚙️ No training required — works instantly
-- 🌐 Optional web interface with **Gradio**
 
 ---
 
@@ -25,7 +24,6 @@ Upload or record an audio sample (like someone talking), and the model predicts 
 | **librosa** | For loading and processing audio |
 | **transformers** | Loads pretrained Hugging Face model |
 | **torch** | Deep learning backend for inference |
-| **gradio** | For building an interactive UI |
 
 ---
 
@@ -65,15 +63,6 @@ pip install -r requirements.txt
 ```bash
 python main.py
 ```
-
-After running, a Gradio interface will open in your browser. You can either:
-
-- 🎙️ Record audio directly, or
-- 📁 Upload a `.wav` / `.mp3` file
-
-The app will display the predicted emotion.
-
----
 
 ## 🧠 Model Info
 
